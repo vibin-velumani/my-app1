@@ -1,0 +1,102 @@
+header {
+  border: 5px solid black;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+body {
+  margin: 0px;
+  height: 100vh;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+.Dark header {
+  /* background: #444; */
+  border-color: white;
+}
+.Dark {
+    background-color: #333;
+}
+.Dark * {
+    color:white;
+    background: #333;
+}
+.product-card{
+  
+   border: 1px solid #49a8b1;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #fcfcfc;
+  margin-left: 20px;
+
+}
+.product-image {
+  width: 70%;
+  height: 200px;
+  margin-bottom: 10px;
+
+}
+.product-title
+{
+font-size: 20px;
+font-weight:bold;
+font-family: 'Times New Roman', Times, serif; 
+}
+.product-description
+{
+font-size: 15px;
+color: rgb(109, 104, 104);
+text-align: justify;
+}
+.product-price{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+
+.decrementButton:hover{
+  transform: rotate(-10deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
